@@ -323,7 +323,7 @@ void Sharer::updateListener()
                 
 				ZeroMemory(fni, sizeof(fni));
                 
-				if(fni->Action == FILE_ACTION_ADDED) {
+				if(fni->Action == FILE_ACTION_ADDED || fni->Action == FILE_ACTION_RENAMED_NEW_NAME) {
                     char ch[fni->FileNameLength];
                     char DefChar = ' ';
                     
