@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>39A29619-50AF-411D-934E-A5AFC8E8991F</string>
+	<string>5BD545C0-47A1-4A58-823D-7704AA7AD35F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FloImageSharerDaemon</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C30C2F29-3079-441D-82D3-7D4800C76E31</key>
-		<string>file:///Users/User/Desktop/Projects/FloImageSharerDaemon/</string>
+		<key>D46BDD63-C560-47D8-96F5-46A20B6AB157</key>
+		<string>https://github.com/AlexanderC/FloImageSharerDaemon.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FloImageSharerDaemon.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C30C2F29-3079-441D-82D3-7D4800C76E31</key>
+		<key>D46BDD63-C560-47D8-96F5-46A20B6AB157</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>file:///Users/User/Desktop/Projects/FloImageSharerDaemon/</string>
+	<string>https://github.com/AlexanderC/FloImageSharerDaemon.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C30C2F29-3079-441D-82D3-7D4800C76E31</string>
+	<string>D46BDD63-C560-47D8-96F5-46A20B6AB157</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C30C2F29-3079-441D-82D3-7D4800C76E31</string>
+			<string>D46BDD63-C560-47D8-96F5-46A20B6AB157</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FloImageSharerDaemon</string>
+			<string>FloImageSharerDaemon1</string>
 		</dict>
 	</array>
 </dict>

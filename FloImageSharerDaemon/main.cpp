@@ -10,6 +10,8 @@
 #include <iostream>
 #include <vector>
 #include <csignal>
+#include <chrono>
+#include <thread>
 #include "sharer.h"
 
 using namespace std;
@@ -35,6 +37,13 @@ int main(int argc, char *argv[])
     printf("Path: %s\n\n", path);
     printf("Url: %s\n\n", url);
     
+    char pltft[] = "Platform detected: %s\n";
+#if FLO_ON_MAC
+    printf(pltft, "MacOS");
+#elif FLO_ON_WIN
+    printf(pltft, "Windows");
+#endif
+
     paths.push_back(path);
     
     sharer = new Sharer(paths, url);
@@ -67,7 +76,10 @@ int main(int argc, char *argv[])
     signal(SIGXFSZ, quitHandler);
     
     while(true){
-        sleep(1);
+#if FLO_ON_WIN
+        sharer->updateListener();
+#endif
+        this_thread::sleep_for(chrono::milliseconds(500));
     }
     
     return 0;
